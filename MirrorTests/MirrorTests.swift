@@ -5,10 +5,10 @@
 //  Created by Kostiantyn Koval on 10/07/15.
 //
 
-@exported import Quick
-@exported import Nimble
+import Quick
+import Nimble
 
-@testable @exported import Mirror
+@testable import Mirror
 
 struct Person {
     var name: String // sizeof(String) == 24 (iff String)
